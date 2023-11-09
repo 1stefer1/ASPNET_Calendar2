@@ -13,5 +13,6 @@ namespace ASPNET_Calendar2.Models
 
         
         public virtual Location location { get; set; }
+        public virtual ApplicationUser User { get; set; }
     }
 }
